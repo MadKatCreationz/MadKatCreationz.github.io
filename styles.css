@@ -1,0 +1,25 @@
+/* styling. Presentation */
+h1  {
+  color: coral;
+}
+
+/* Style Guide
+   *Primary Colors: light grey
+   *Secondary Color: pink
+*/
+
+h1 {
+  color: coral;
+  font-family: 'Bangers', cursive;
+  font-size: 48px;
+  letter-spacing: 6px;
+  text-align: center;
+}
+
+p {
+  color: light grey
+}
+
+/* Typography
+    *Primary Font:
+*/
