@@ -10,6 +10,9 @@ MadKatCreationz.com
 * Primary Font: Fira Code
 * Secondary Font: Lobster
 
+## Bio
+* I am a photographer
+
 ## References
 * [Normalize](https://necolas.github.io/normalize.css/)
 * [Google Fonts](https://fonts.google.com/specimen/Lobster)
