@@ -1,3 +1,119 @@
+<style>
+  
+  h1 {
+	  font-size: 48px;
+    font-family: 'Rochester';
+    color: 
+  }
+  
+</style>
+
+/* 
+* Navigation is vertically aligned center
+* "Link 1", "Link 2", etc. are evenly distributed in-the-a-line
+ */
+nav {
+  background: rgba(0,0,0,.5);
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+/* 
+* "Sitename" is always leftmost 
+* ..or empty space grows to fill
+* ..or negative space to the-right-of-link automatically adjusts */
+
+h1 {
+  flex-grow: 1;
+/*    margin-right: auto; */
+}
+
+/* 
+* Default state styling 
+* Visited State styling */
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: .5em;
+  margin: .5em;
+}
+
+/* 
+* Hover State background is "coral" color 
+* Active State background is "coral" color */
+
+nav a:link,
+nav a:visited {
+  
+  color: white;
+  text-decoration: none;
+  padding: .5em;
+  margin: .5em;
+}
+
+nav a:focus {
+  background: pink;
+}
+
+nav a:hover, 
+nav a:active {
+  background: pink;
+}
+
+/* 
+* Media Query at 480 pixels
+* Navigation stacks or columm-view layout at 480 pixels
+*/
+
+
+@media screen and ( max-width: 480px ) {
+  
+  
+    nav {
+    flex-direction: column;
+  }
+  
+}
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+nav a:link,
+nav a:visited {
+  text-decoration: none;
+  color: black;
+  padding: .5em;
+  background: white;
+  
+  transition: background .25s;
+}
+
+nav a:hover,
+nav a:focus,
+nav a:active {
+  color: #fff;
+  background: #FFC0CB;
+  transform: scale(1.2);
+  
+  transition: 
+    background 1s,
+    transform 1s ease-in;
+  
+}
+
+img {
+  border-radius: 50%;
+  float: left;
+  margin: .5em;
+  shape-outside: circle(50%);
+}
+
+
+
 main { 
   margin: 0 auto;
   width: 90%;
