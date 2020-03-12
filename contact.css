@@ -1,0 +1,21 @@
+.container {
+	display: flex;
+}
+
+div {
+position: center;
+width: 400px;
+height: 300px;
+left: 35px;
+top: 0px;
+
+background: #FFDDEF;
+border-radius: 10px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
