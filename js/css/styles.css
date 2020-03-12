@@ -1,3 +1,72 @@
+/* 
+* Navigation is vertically aligned center
+* "Link 1", "Link 2", etc. are evenly distributed in-the-a-line
+*/
+nav {
+  background: rgba(0,0,0,.5);
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+/* 
+* "Sitename" is always leftmost 
+* ..or empty space grows to fill
+* ..or negative space to the-right-of-link automatically adjusts */
+
+h1 {
+  flex-grow: 1;
+/*    margin-right: auto; */
+}
+
+/* 
+* Default state styling 
+* Visited State styling */
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: .5em;
+  margin: .5em;
+}
+
+/* 
+* Hover State background is "coral" color 
+* Active State background is "coral" color */
+
+nav a:link,
+nav a:visited {
+  
+  color: white;
+  text-decoration: none;
+  padding: .5em;
+  margin: .5em;
+}
+
+nav a:focus {
+  background: pink;
+}
+
+nav a:hover, 
+nav a:active {
+  background: pink;
+}
+
+/* 
+* Media Query at 480 pixels
+* Navigation stacks or columm-view layout at 480 pixels
+*/
+
+
+@media screen and ( max-width: 480px ) {
+  
+  
+    nav {
+    flex-direction: column;
+  }
+  
+}
+
 <style>
   
   h1 {
@@ -11,9 +80,9 @@
 /* 
 * Navigation is vertically aligned center
 * "Link 1", "Link 2", etc. are evenly distributed in-the-a-line
- */
+*/
 nav {
-  background: rgba(0,0,0,.5);
+  background: pink;
 
   display: flex;
   align-items: center;
@@ -135,7 +204,7 @@ main img {
     
   /* Diagnostic Styling. Delete When Done. */
   body:before {
-       background: pink;
+       background: yellow;
        content: "Mobile Size";
   }
   
@@ -148,7 +217,7 @@ main img {
     
   /* Diagnostic Styling. Delete When Done. */
   body:before {
-       background: pink;
+       background: yellow;
        content: "Tablet Size";
   }
 
@@ -161,7 +230,7 @@ main img {
   
   /* Diagnostic Styling. Delete When Done. */
   body:before {
-       background: pink;
+       background: yellow;
        content: "Desktop Size";
   }
 
@@ -174,30 +243,8 @@ main img {
   
   /* Diagnostic Styling. Delete When Done. */
   body:before {
-       background: pink;
+       background: yellow;
        content: "Wide Desktop Size";
   }
 
-}
-
-.container {
-	display: flex;
-}
-
-div {
-position: center;
-width: 400px;
-height: 300px;
-left: 35px;
-top: 0px;
-
-background: #FFDDEF;
-border-radius: 10px;
-}
-
-body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
 }
