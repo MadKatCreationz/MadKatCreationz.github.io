@@ -95,6 +95,7 @@ nav {
 * ..or negative space to the-right-of-link automatically adjusts */
 
 h1 {
+  font-family: 'Great Vibes', cursive;
   flex-grow: 1;
 /*    margin-right: auto; */
 }

@@ -15,5 +15,4 @@ MadKatCreationz.com
 
 ## References
 * [Normalize](https://necolas.github.io/normalize.css/)
-* [Google Fonts](https://fonts.google.com/specimen/Lobster)
-
+* [Google Fonts](https://fonts.google.com/specimen/Lobster) (https://fonts.googleapis.com/css?family=Great+Vibes|Sacramento&display=swap)
