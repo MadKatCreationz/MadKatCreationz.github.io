@@ -16,8 +16,16 @@ nav {
 * ..or negative space to the-right-of-link automatically adjusts */
 
 h1 {
+  font-family: 'Great Vibes', cursive;
+  font-size: 30px;
+  color: #FC94AF;
   flex-grow: 1;
 /*    margin-right: auto; */
+}
+
+h2,h5 {
+ text-align: center;
+  color: #FC94AF;
 }
 
 /* 
@@ -28,6 +36,8 @@ nav a {
   text-decoration: none;
   padding: .5em;
   margin: .5em;
+   display: flex;
+  justify-content: space-evenly;
 }
 
 /* 
@@ -95,7 +105,6 @@ nav {
 * ..or negative space to the-right-of-link automatically adjusts */
 
 h1 {
-  font-family: 'Great Vibes', cursive;
   flex-grow: 1;
 /*    margin-right: auto; */
 }
@@ -205,7 +214,7 @@ main img {
     
   /* Diagnostic Styling. Delete When Done. */
   body:before {
-       background: yellow;
+       background: pink;
        content: "Mobile Size";
   }
   
@@ -218,7 +227,7 @@ main img {
     
   /* Diagnostic Styling. Delete When Done. */
   body:before {
-       background: yellow;
+       background: pink;
        content: "Tablet Size";
   }
 
@@ -231,7 +240,7 @@ main img {
   
   /* Diagnostic Styling. Delete When Done. */
   body:before {
-       background: yellow;
+       background: pink;
        content: "Desktop Size";
   }
 
@@ -244,7 +253,7 @@ main img {
   
   /* Diagnostic Styling. Delete When Done. */
   body:before {
-       background: yellow;
+       background: pink;
        content: "Wide Desktop Size";
   }
 
